@@ -164,6 +164,8 @@ ui <- fluidPage(
   )
 )
 
+
+
 # 4. Server
 server <- function(input, output, session) {
   city <- get_city(sample(1:100000, size = 1))
